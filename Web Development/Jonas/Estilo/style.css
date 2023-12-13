@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #000000;    
+}
+
+.hd{
+    color: white;
+    border: 5px solid gray;
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/Jonas/Img/background\ do\ bem\ vindo.jpg) ;
+}
+
+
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: red;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px white;
+    border: 1px solid white;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color:black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+body{
+    background-color: black;
+}
+
+#logo{
+    position: flex ;    
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px; 
+    border: 2px outset white;
+    
+}
+
+#text{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+}
